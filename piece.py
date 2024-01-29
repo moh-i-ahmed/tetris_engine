@@ -5,7 +5,7 @@ class Piece:
         'Z': ((1, 1, 0), (0, 1, 1)),
         'S': ((0, 1, 1), (1, 1, 0)),
         'T': ((1, 1, 1), (0, 1, 0)),
-        'I': ((1,), (1,), (1,), (1,)),
+        'I': ((1, 1, 1, 1),),
         'L': ((1, 0), (1, 0), (1, 1)),
         'J': ((0, 1), (0, 1), (1, 1))
     }
@@ -14,6 +14,7 @@ class Piece:
         self.shape = shape
         self.position = position
     
+
     @classmethod
     def create(cls, piece_type, position):
         shape = cls.SHAPES[piece_type]
