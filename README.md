@@ -1,4 +1,4 @@
-# Tetris Engine
+# Tetris Game Engine (Simplified)
 
 **Author**: [Mohammed Ibrahim Ahmed](https://www.linkedin.com/in/moh-i-ahmed/) | [github.com/moh-i-ahmed](https://github.com/moh-i-ahmed)
 
